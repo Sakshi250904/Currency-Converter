@@ -1,0 +1,123 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f4e4ba, #ff758c);
+}
+
+/* Container */
+.container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    min-height: 50vh;
+    width: 50vh;
+}
+
+/* Heading */
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+/* Form Elements */
+form {
+    margin: 2rem 0 1rem 0;
+}
+
+form input,
+form select,
+form button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+    padding: 0.75rem;
+    font-size: 1rem;
+}
+
+form input {
+    border: 2px solid lightgray;
+    transition: 0.3s;
+}
+
+form input:focus {
+    border-color: #ff758c;
+}
+
+/* Dropdown Section */
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.dropdown i {
+    font-size: 1.5rem;
+    color: #ff758c;
+}
+
+/* Select Containers */
+.select-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid lightgray;
+    transition: 0.3s;
+    width: 11rem; /* Increased width for better alignment */
+    background: #fff;
+}
+
+.select-container:hover {
+    border-color: #ff758c;
+}
+
+.select-container img {
+    width: 2rem;
+}
+
+.select-container select {
+    font-size: 1rem;
+    flex-grow: 1;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Exchange Rate Message */
+.msg {
+    margin: 2rem 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Button */
+form button {
+    background: #ff758c;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #e04668;
+}
